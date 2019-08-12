@@ -1,0 +1,60 @@
+Started by user [8mha:////4H3pgH5j5TspFN8JfilDEupOPTyKXXzmQhphHbDC4rmXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/dLi1CL9xLzEkvycSgAGEq4kwgAAAA==[0mAVG
+Running as SYSTEM
+Building on master in workspace C:\Jenkins\workspace\HomeTask with some changes
+No credentials specified
+ > c:\Program Files\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > c:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/Anatoly8888/HomeTasks.git # timeout=10
+Fetching upstream changes from https://github.com/Anatoly8888/HomeTasks.git
+ > c:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > c:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/Anatoly8888/HomeTasks.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/maven^{commit}" # timeout=10
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/maven^{commit}" # timeout=10
+Checking out Revision f66f8eeb930436b04c1b85968a419c83a2a128b7 (refs/remotes/origin/maven)
+ > c:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > c:\Program Files\Git\cmd\git.exe checkout -f f66f8eeb930436b04c1b85968a419c83a2a128b7
+Commit message: "del"
+ > c:\Program Files\Git\cmd\git.exe rev-list --no-walk f66f8eeb930436b04c1b85968a419c83a2a128b7 # timeout=10
+[HomeTask with some changes] $ cmd.exe /C "C:\apache-maven-3.6.1\bin\mvn.cmd -f java/pom.xml test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.github.vitalliuss.helloci:hello-ci >---------------
+[INFO] Building hello-ci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4JzI61cG1YnQSdFBVq6xfBdlfffJb8g8Ja1AYkEvSyokAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-ci ---
+[8mha:////4LrKOTm3hghFWoQRqLRn6ZmcFuLvfFqjKMcxubvj6FbWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\workspace\HomeTask with some changes\java\src\main\resources
+[INFO] 
+[8mha:////4JzI61cG1YnQSdFBVq6xfBdlfffJb8g8Ja1AYkEvSyokAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-ci ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4JzI61cG1YnQSdFBVq6xfBdlfffJb8g8Ja1AYkEvSyokAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-ci ---
+[8mha:////4LrKOTm3hghFWoQRqLRn6ZmcFuLvfFqjKMcxubvj6FbWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\workspace\HomeTask with some changes\java\src\test\resources
+[INFO] 
+[8mha:////4JzI61cG1YnQSdFBVq6xfBdlfffJb8g8Ja1AYkEvSyokAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-ci ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4JzI61cG1YnQSdFBVq6xfBdlfffJb8g8Ja1AYkEvSyokAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ hello-ci ---
+[INFO] Surefire report directory: C:\Jenkins\workspace\HomeTask with some changes\java\target\surefire-reports
+[INFO] Using configured provider org.apache.maven.surefire.junit4.JUnit4Provider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.vitalliuss.helloci.AppTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.047 sec - in com.github.vitalliuss.helloci.AppTest
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.157 s
+[INFO] Finished at: 2019-08-12T20:03:52+03:00
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Finished: SUCCESS

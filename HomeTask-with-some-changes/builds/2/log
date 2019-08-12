@@ -1,0 +1,16 @@
+Started by user [8mha:////4H3pgH5j5TspFN8JfilDEupOPTyKXXzmQhphHbDC4rmXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/dLi1CL9xLzEkvycSgAGEq4kwgAAAA==[0mAVG
+Running as SYSTEM
+Building on master in workspace C:\Jenkins\workspace\HomeTask with some changes
+No credentials specified
+ > c:\Program Files\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > c:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/Anatoly8888/HomeTasks.git # timeout=10
+Fetching upstream changes from https://github.com/Anatoly8888/HomeTasks.git
+ > c:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > c:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/Anatoly8888/HomeTasks.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/Jenkins^{commit}" # timeout=10
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/Jenkins^{commit}" # timeout=10
+ > c:\Program Files\Git\cmd\git.exe rev-parse "origin/Jenkins^{commit}" # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Archiving artifacts
+Finished: FAILURE
